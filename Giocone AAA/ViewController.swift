@@ -49,7 +49,7 @@ class ViewController: UIViewController, SKPhysicsContactDelegate {
         gameOverLabel.fontSize = 50
         gameOverLabel.position = CGPoint(x: scene.frame.midX, y: scene.frame.midY)
         
-        ball.fillColor = .purple
+        ball.fillColor = .lightGray
         ball.strokeColor = .white
         ball.physicsBody = SKPhysicsBody(circleOfRadius: 30)
         ball.physicsBody?.affectedByGravity = false
